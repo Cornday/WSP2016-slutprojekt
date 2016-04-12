@@ -12,29 +12,34 @@
 </head>
 <body>
 
-<ul class="breadcrumb">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Library</a></li>
-    <li class="active">Data</li>
-</ul>
 
-<div class="container well">
-    <div class="row">
-        <div class="col-md-6">
-            <h1>Heading 1</h1></div>
-            <div class="col-md-6">
-                <h2>Heading 2</h2>
-            </div>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--<a class="navbar-brand" href="#">Brand</a>-->
+
+            <a href="index.php"><img src="bilder/figy%20logo%20vit.png"
+                                     alt="Figy logo" style="background-color: #222222;"></a>
+        </div>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#"><b>Home</b><span class="sr-only">(current)</span></a></li>
+                <li><a href="#">My Wall</a></li>
+                <li><a href="#">People on FiGi Book</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">log in</a></li>
+                <li><a href="#">Sign up</a></li>
+            </ul>
+        </div>
     </div>
-    <div class="row">
-        <div class="col-md-4">
-            <h3>Heading 3</h3>
-            <h4>Heading 4</h4>
-            <h5>Heading 5</h5></div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
-            <h6>Heading 6</h6>
-            <p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p></div>
-    </div>
-    </div>
-</div>
+</nav>
