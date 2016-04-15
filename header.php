@@ -32,9 +32,9 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#"><b>Home</b><span class="sr-only">(current)</span></a></li>
-                <li><a href="#">My Wall</a></li>
-                <li><a href="#">People on FiGi Book</a></li>
+                <li class="active"><a href="index.php"><b>Home</b><span class="sr-only">(current)</span></a></li>
+                <li><a href="index.php?page=mywall">My Wall</a></li>
+                <li><a href="index.php?page=folks">People on FiGy Book</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">log in</a></li>
@@ -43,3 +43,5 @@
         </div>
     </div>
 </nav>
+
+<div class="container">
