@@ -4,7 +4,7 @@
     <div class="jumbotron col-md-8">
         <h1>Welcome to FiGybook</h1>
         <p>The place for student to student interactions!</p>
-        <p><a class="btn btn-primary btn-lg" href="index.php?page=signup" role="button">Sign up</a></p>
+        <p><a class="btn btn-success btn-lg" href="index.php?page=signup" role="button">Sign up</a></p>
 
     </div>
     <div class="jumbotron col-md-4" style="border: solid black">

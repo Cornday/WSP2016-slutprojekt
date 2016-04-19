@@ -37,8 +37,8 @@
                 <li><a href="index.php?page=folks">People on FiGy Book</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">log in</a></li>
-                <li><a href="#">Sign up</a></li>
+                <li><a href="index.php?page=login">log in</a></li>
+                <li><a href="index.php?page=signup">Sign up</a></li>
             </ul>
         </div>
     </div>
