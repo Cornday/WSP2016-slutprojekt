@@ -10,7 +10,7 @@
     <div class="jumbotron col-md-4" style="border: solid black">
         <h3>Recent public posts</h3>
         <p><b>Today:</b><br>Andrew Calls meeting to inform students about canceled meeting</p>
-        <p><b>June, 26:</b><br>Remember to go to the first official FiGy Gladiator game. NOW with real students!</p>
+        <p><b>June, 26:</b><br>Remember to go to the first official FiGy Gladiator game. <b>NOW with real students!</b></p>
     </div>
 
 </div>

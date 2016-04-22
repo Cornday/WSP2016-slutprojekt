@@ -4,11 +4,11 @@
     <form action="doLogin.php" method="post">
         <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="InputEmail" name="InputEmail1" placeholder="Email">
+            <input type="email" class="form-control" id="InputEmail" name="InputEmail1" placeholder="Email" required>
         </div>
         <div class="form-group">
             <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="InputPassword" name="InputPassword" placeholder="Password">
+            <input type="password" class="form-control" id="InputPassword" name="InputPassword" placeholder="Password" required>
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
     </form>
