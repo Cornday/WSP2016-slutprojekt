@@ -37,8 +37,20 @@
                 <li><a href="index.php?page=folks">People on FiGy Book</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.php?page=login">log in</a></li>
-                <li><a href="index.php?page=signup">Sign up</a></li>
+<?php
+if(isset($_SESSION['email'])&&isset($_SESSION["username"])) {
+    $user = $_SESSION["username"];
+
+    echo"
+    <li><a href = 'Logout.php' >Logout $user</a></li>";
+}
+else
+{
+    echo"
+    <li><a href = 'index.php?page=login'> log in </a></li>
+    <li><a href = 'index.php?page=signup'> Sign up </a></li>";
+}
+?>
             </ul>
         </div>
     </div>

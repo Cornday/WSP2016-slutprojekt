@@ -1,3 +1,11 @@
+<?php
+if (isset($_SESSION["message"])){
+    echo $_SESSION["message"];
+
+    $_SESSION["message"]=null;
+}
+?>
+
 <div class="row">
 
 <div class="col-md-6">

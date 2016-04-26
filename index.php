@@ -1,4 +1,5 @@
 <?php
+    session_start();
     //anropar header.php
     require("header.php");
 
